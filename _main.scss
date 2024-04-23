@@ -1,0 +1,102 @@
+$card-bg-color: #f9f9f9; // Color de fondo del card
+$rectangulo-bg-color: #b857a8; // Color de fondo del rectangulo
+
+.pagetitle{
+    padding-left: 20%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    .card {
+        flex: 0 0 auto;
+        width: 300px;
+        background-color: $card-bg-color;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    .rectangulo {
+        width: 100%;
+        height: 150px; 
+        background-color: $rectangulo-bg-color; 
+        border-radius: 10px; 
+        margin-bottom: 10px;
+    }
+
+    .titulo {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .descripcion {
+        font-size: 14px;
+        color: #555;
+        margin-bottom: 10px;
+    }
+
+    .readtime {
+        font-size: 12px;
+        color: #888;
+    }
+  }
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; // Centrar horizontalmente
+    padding: 20px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    .formtitle{
+        font-size: 60px;
+        font-weight: bold;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    .texto{
+        color: #393d74;
+        font-weight: bold;
+        margin-top: 9px;
+        margin-bottom: 30px;
+    }
+
+    input {
+        color: #393d74;
+        font-weight: bold;
+        height: 35px;
+        width: 400px;
+        padding: 10px;
+        padding-right: 0px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+
+    button{        
+        height: 57px;
+        background-color: #ff0000;
+        color: #fff;
+        font-weight: bold;
+        border: none;
+        border-radius: 17px;
+        padding: 10px 20px;
+        margin-left: 0px;
+        cursor: pointer;
+    }
+  }
